@@ -36,7 +36,19 @@ const myFunction = function(){
 }
 
 // How to know datatype of a variable
-console.log(typeof myFunction);
+// console.log(typeof score); // number
+// console.log(typeof scoreValue); // number
+// console.log(typeof isLoggedIn); // boolean
+// console.log(typeof outsideTemp); // object
+// console.log(typeof userEmail); // undefined 
+// console.log(typeof Id); // symbol
+// console.log(typeof anotherId); // symbol
+
+// console.log(typeof heros); //object
+// console.log(typeof myObj); //object
+// console.log(typeof myFunction); //object(object-function)
+
+
 
 // Typeof Vale : Result
 //-------------------------
