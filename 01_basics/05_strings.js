@@ -6,6 +6,7 @@ const repoCount = 30
 
 //string interpolation 
 console.log(`Hello my name is ${name} and my repo count is ${repoCount} `);
+//${} -> placeholder
 
 // modern ways to declare a string
 const gameName = new String('hitesh-hc-com')
@@ -41,8 +42,6 @@ console.log(gameName.split('-'));
 //split : Split a string into substrings using the specified separator and return them as an array.
 
 //==================== How to work all Prototype (examples) ===========
-console.log(gameName.anchor(gameName));
-//Returns an <a> HTML anchor element and sets the name attribute to the text value.
 
 console.log(gameName.at(2));
 const sentence = 'The quick brown fox jumps over the lazy dog.';
@@ -53,8 +52,7 @@ console.log(`An index of ${index} returns the character ${sentence.at(index)}`);
 
 console.log(gameName.charCodeAt(2));
 //The charCodeAt() method of String values returns an integer between 0 and 65535.
-
-console.log(gameName.codePointAt(5));
+console.log(gameName.codePointAt(2));
 
 const str1 = 'Hello';
 const str2 = 'World';
