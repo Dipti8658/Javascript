@@ -80,6 +80,7 @@ anothername = "Virat"
 console.log(myName);
 console.log(anothername);
 
+//Example of Heap
 let userOne = {
     email: "user@google.com",
     upi: "user@ybl"
