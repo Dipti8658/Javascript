@@ -24,7 +24,8 @@ console.log(undefined < 0);
 // === (strict equality comparison)
 console.log("2" === 2);
 
-/* Difference Between loose equality comparison(==) vs strict equality comparison(===) : == it will try to convert the operands to the same data type before comparing them.  But === it will not try to convert the operands to the same data type before comparing them. */
+/* Difference Between loose equality comparison(==) vs strict equality comparison(===) : == it will try to convert the operands to the
+ same data type before comparing them.But === it will not try to convert the operands to the same data type before comparing them. */
 
 
 
