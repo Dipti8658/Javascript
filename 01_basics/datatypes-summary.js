@@ -64,3 +64,30 @@ const myFunction = function(){
 // function -> object-function
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+
+
+//**********************memory allocation in JS*********************
+
+// Stack(Primitive) , Heap(Non-Primitive)
+
+// Examples of Stack
+let myName = "Rohit"
+
+let anothername = myName
+anothername = "Virat"
+
+console.log(myName);
+console.log(anothername);
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "dipti@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
